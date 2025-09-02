@@ -232,6 +232,7 @@ header a:hover {
 }
 
 #About-us .img-container {
+    background-image: url("imgs/LogoDARKEN.png");
     box-shadow: 5px 5px 20px #772525;
 }
 
