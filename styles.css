@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 *{
+    margin: 0;
     box-sizing: border-box;
     }
     
@@ -9,7 +10,6 @@
     
     body{
         font-family: 'Roboto Condensed', sans-serif;
-        margin: 0;
     }
 
     header .capa{
@@ -171,7 +171,7 @@
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)
     )
-    ,url("imggs/fondo1.png");
+    ,url("imgs/bakcground.png");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     background-position: center center;
@@ -334,7 +334,7 @@
         text-align: center;
     }
 
-    #Croquis .container {
+    #Mapa .container {
         background-color: #1a1818;
         text-align: center;
         padding: 200px 12px;
@@ -482,12 +482,12 @@
             justify-content: flex-end;
         }
 
-        #Croquis .container{
+        #Mapa .container{
             display: flex;
             justify-content: space-evenly;
         }
     
-        #Croquis .texto{
+        #Mapa .texto{
             width: 50%;
             max-width: 600px;
             text-align: initial;
@@ -497,11 +497,11 @@
             justify-content: center;
         }
     
-        #Croquis h2{
+        #Mapa h2{
             margin-top: 0px;
         }
     
-        #Croquis .img-container{
+        #Mapa .img-container{
             background-image: url("imggs/croquis.jpg");
             background-size: cover;
             background-position: cover;
